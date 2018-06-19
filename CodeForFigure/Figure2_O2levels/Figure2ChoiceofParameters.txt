@@ -1,0 +1,20 @@
+Modeling steady level of oxygen in tumor
+
+Experimental data of the partial pressure of O2 in mmHg against the distance from one vessel wall were taken from Tsai et al, measured in the rat mesentery, and from Torres Filho et al,measured in aesthetized and unasthetized mice. It was then converted to percentage of the athmospheric pressure at sea level which is 760 mm Hg.
+
+In order to set the diffusion coefficient of vessel wall, experimental data (where distance in um was converted in pixel, one pixel=15 um) was fitted by the diffusion equation s*exp(-x^2)/(2*D^2) and give a range of value in the the confidence range of 95% for fitting. 
+
+
+In this plausible range, D (diffusion coefficient of oxygen from the vessel) was then fixed by selecting a density of vessel at 3.5% and checking D values for which the percentage of hypoxia area (defined as below the threshold of 0.2% in the oxygen map generated) was below 1% (as measure experimentally in XX), while conserving an averaged level of oxygen in the tumor of avout 3%. 
+
+
+
+
+2003(http://physrev.physiology.org/content/83/3/933, Figure 6)
+
+
+TO be tried and discussed: Torres Filho et all, 1994 (Figure 3)
+http://www.pnas.org/content/91/6/2081.full.pdf
+Profiles for anesthetized and unanesthetized mice.
+
+
